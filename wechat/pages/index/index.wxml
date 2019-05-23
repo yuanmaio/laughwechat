@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='list-li mflex'  wx:for="{{list_data}}"  wx:key="index" catchtap="goHouseDetail" data-content="{{item.content}}" >
+      <view  class='list-tit'><text>{{item.content}}</text></view>  
+  </view>
+</view>
